@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Bentham|Meddon');
+body {
+    font-family: 'Bentham', serif;
+}
+
+/* First page */
+
+h1, .welcome {
+    font-family: 'Meddon', cursive;
+}
+
+.first-page {
+    border: none;
+    border-radius: 200px;
+    opacity: 0.7;
+}
+
+.btn {
+    background-color: rgb(136, 163, 87);
+    border: none;
+    border-radius: 0;
+    letter-spacing: 0.2em;
+}
+
+input[value="SIGN UP"] {
+    background-color: rgb(170, 122, 99);
+}
+
+.btn-primary:hover, .logOut:hover, .btn-danger:hover, .add:hover {
+    background-color: rgb(129, 129, 129);
+}
+
+.column {
+    background-color: rgba(218, 204, 173, 0.637);
+    padding: 10%;
+    max-width: 80%;
+    margin: auto;
+}
+
+.box {
+    width: 50%;
+}
+
+/* journal page */
+
+.name {
+    font-family: 'Bentham', serif;
+    color: rgb(196, 132, 103);
+}
+
+.welcome {
+    font-size: 2.5em;
+}
+
+.logOut {
+    color: white;
+}
+
+.logOut:hover {
+    color: white;
+}
+
+.btn-danger {
+    background-color: rgb(143, 114, 122);
+}
+
+.add {
+    background-color: rgb(204, 162, 34);
+}
+
+.bg-color img {
+    display: block;
+    height: 20%;
+    width: 120%;
+    margin: 10%;
+}
+
+.bg-color {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+}
+
+.w-90 {
+    margin: 2% 10%;
+    padding: 2%;
+    border: solid 1px black;
+}
+
+input[id=title], textarea {
+    border: none;
+    border-bottom: 1px solid rgba(59, 59, 59, 0.87);
+    font-size: 1em;
+    color: rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+textarea{
+    width: 100%;
+}
